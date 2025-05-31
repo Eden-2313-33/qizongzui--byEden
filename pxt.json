@@ -4,7 +4,8 @@
     "dependencies": {
         "device": "*",
         "分辨率翻倍插件": "pub:91674-65502-52154-64442",
-        "arcade-story": "github:laoyizun/arcade-storytelling#v1.1.0"
+        "arcade-story": "github:laoyizun/arcade-storytelling#v1.1.0",
+        "pxt-meteoroid": "github:felixtsu/pxt-meteoroid#v0.1.5"
     },
     "files": [
         "main.blocks",
