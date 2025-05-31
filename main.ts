@@ -53,7 +53,6 @@ story.startCutscene(function () {
     story.spriteMoveToLoc(mySprite, 0, 9, 100)
     story.cancelAllCutscenes()
     tiles.setCurrentTilemap(tilemap`级别5`)
-    tiles.placeOnRandomTile(boos1, assets.tile`myTile3`)
     boos1 = sprites.create(img`
         .........................................cccccccc...........
         .........................................cccccccc...........
@@ -126,6 +125,7 @@ story.startCutscene(function () {
         ...ccccccccccccccccccccccc...................cccccccccccc...
         ............................................................
         `, SpriteKind.Enemy)
+    tiles.placeOnRandomTile(boos1, assets.tile`transparency16`)
     mySprite2 += 1
 })
 story.spriteMoveToLoc(mySprite, 10, 9, 100)
